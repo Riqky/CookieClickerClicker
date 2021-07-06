@@ -1,0 +1,37 @@
+1625584250456	geckodriver	INFO	Listening on 127.0.0.1:57474
+1625584253393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileyI5z53"
+1625584254309	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileyI5z53\\search.json.mozlz4", (void 0)))
+1625584258710	Marionette	INFO	Listening on port 57494
+1625584259116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584261522	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Marionette threw an error: TypeError: chromeWindow is null
+waitForNavigationCompleted@chrome://marionette/content/navigate.js:337:3
+GeckoDriver.prototype.clickElement@chrome://marionette/content/driver.js:1724:18
+
+Marionette threw an error: TypeError: this.currentSession is null
+GeckoDriver.prototype.getBrowsingContext@chrome://marionette/content/driver.js:292:5
+GeckoDriver.prototype.getActor/<@chrome://marionette/content/driver.js:264:10
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\PC\AppData\Local\Temp\rust_mozprofileyI5z53\protections.sqlite
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625584272389	Marionette	INFO	Stopped listening on port 57494
+1625584414869	geckodriver	INFO	Listening on 127.0.0.1:57827
+1625584417948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile7G807l"
+1625584418323	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile7G807l\\search.json.mozlz4", (void 0)))
+1625584420864	Marionette	INFO	Listening on port 57839
+1625584421129	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584558525	geckodriver	INFO	Listening on 127.0.0.1:58081
+1625584561564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileNOkTkp"
+1625584562026	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileNOkTkp\\search.json.mozlz4", (void 0)))
+1625584565021	Marionette	INFO	Listening on port 58097
+1625584565267	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625584567186	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1625584567587	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
