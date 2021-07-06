@@ -10,15 +10,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Firefox()
 driver.get("https://orteil.dashnet.org/cookieclicker/")
 cookie = driver.find_element(By.CSS_SELECTOR, '#bigCookie')
-WebDriverWait(driver, 20).until(expected_conditions.element_to_be_clickable(cookie))
-
-action = ActionChains(driver).double_click(cookie)
+WebDriverWait(driver, 20).until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, '#bigCookie')))
 
 while True:
     start = time.time()
     # get the cookie and click it
-    #cookie.click()
-    action.perform()
+    cookie.click()
+    print(round(time.time() - start, 2))
 
     #find the upgrades
     upgrades = driver.find_elements_by_css_selector("div.product.enabled")
@@ -31,4 +29,4 @@ while True:
     for item in upgrades:
         item.click()
 
-    print(round(time.time() - start, 2))
+

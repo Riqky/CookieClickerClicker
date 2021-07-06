@@ -35,3 +35,201 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1625584565267	Marionette	WARN	TLS certificate errors will be ignored for this session
 1625584567186	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1625584567587	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1625592939448	geckodriver	INFO	Listening on 127.0.0.1:60722
+1625592942493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilelJRgLZ"
+1625592943037	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilelJRgLZ\\search.json.mozlz4", (void 0)))
+1625592945759	Marionette	INFO	Listening on port 60735
+1625592946188	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1625593009634	Marionette	INFO	Stopped listening on port 60735
+1625593524870	geckodriver	INFO	Listening on 127.0.0.1:61218
+1625593527959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile2SglRD"
+1625593528244	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile2SglRD\\search.json.mozlz4", (void 0)))
+1625593530587	Marionette	INFO	Listening on port 61238
+1625593530621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625593558583	geckodriver	INFO	Listening on 127.0.0.1:61357
+1625593561655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilesoTSw8"
+1625593561961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilesoTSw8\\search.json.mozlz4", (void 0)))
+1625593564150	Marionette	INFO	Listening on port 61371
+1625593564319	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625593710013	Marionette	INFO	Stopped listening on port 61371
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileYe4K5d\\search.json.mozlz4", (void 0)))
+1625593705455	Marionette	INFO	Listening on port 61619
+1625593705968	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625593751902	geckodriver	INFO	Listening on 127.0.0.1:61748
+1625593754966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofiley8SWeI"
+1625593755263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofiley8SWeI\\search.json.mozlz4", (void 0)))
+1625593757467	Marionette	INFO	Listening on port 61769
+1625593757635	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 11872, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2128: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstor1625593988030	Marionette	INFO	Listening on port 62111
+1625593988182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625593989669	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetc1625594006234	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileLrpd5I"
+1625594006550	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileLrpd5I\\search.json.mozlz4", (void 0)))
+1625594008718	Marionette	INFO	Listening on port 51353
+1625594008883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594010333	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+1625594043696	Marionette	INFO	Stopped listening on port 51353
+1625594044576	geckodriver	INFO	Listening on 127.0.0.1:51488
+1625594047670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileAJyubB"
+1625594047959	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileAJyubB\\search.json.mozlz4", (void 0)))
+1625594050089	Marionette	INFO	Listening on port 51499
+1625594050325	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594051821	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1625594078800	Marionette	INFO	Stopped listening on port 51499
+new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileUsmfHC\\search.json.mozlz4", (void 0)))
+1625594077572	Marionette	INFO	Listening on port 51652
+1625594077698	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594079159	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594102709	Marionette	INFO	Stopped listening on port 51652
+1625594367395	geckodriver	INFO	Listening on 127.0.0.1:62133
+1625594370466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileGlhcQU"
+1625594370764	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileGlhcQU\\search.json.mozlz4", (void 0)))
+1625594373031	Marionette	INFO	Listening on port 62151
+1625594373136	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594374176	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594398074	Marionette	INFO	Stopped listening on port 62151
+1625594399574	geckodriver	INFO	Listening on 127.0.0.1:62331
+1625594402634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileQSHazy"
+1625594402929	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileQSHazy\\search.json.mozlz4", (void 0)))
+1625594405182	Marionette	INFO	Listening on port 62343
+1625594405302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594406747	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1625594467115	Marionette	INFO	Stopped listening on port 62343
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625594468406	geckodriver	INFO	Listening on 127.0.0.1:62597
+1625594471489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilexdGyXZ"
+1625594471776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilexdGyXZ\\search.json.mozlz4", (void 0)))
+1625594474130	Marionette	INFO	Listening on port 62610
+1625594474174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594475760	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594655662	Marionette	INFO	Stopped listening on port 62610
+62841
+1625594528736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594529787	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594651387	Marionette	INFO	Stopped listening on port 62841
+dError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilep4vSIJ\\search.json.mozlz4", (void 0)))
+1625594617507	Marionette	INFO	Listening on port 63095
+1625594617662	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594618937	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594652317	Marionette	INFO	Stopped listening on port 63095
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile9ht9sK\\search.json.mozlz4", (void 0)))
+1625594649464	Marionette	INFO	Listening on port 63377
+1625594649869	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594650967	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when att1625594666284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilejQBRVa"
+1625594666567	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilejQBRVa\\search.json.mozlz4", (void 0)))
+1625594668698	Marionette	INFO	Listening on port 63592
+1625594668951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594669911	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when att1625594706810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile0wLHcm"
+1625594707103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile0wLHcm\\search.json.mozlz4", (void 0)))
+1625594709334	Marionette	INFO	Listening on port 63814
+1625594709478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594711171	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+ng: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625594706248	Marionette	INFO	Stopped listening on port 63592
+1625594723712	geckodriver	INFO	Listening on 127.0.0.1:63960
+1625594726769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileLRhVwz"
+1625594727060	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileLRhVwz\\search.json.mozlz4", (void 0)))
+1625594729236	Marionette	INFO	Listening on port 63979
+1625594729417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625594730524	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://g.ezodn.com/cmp/v2/cmp.js?v=42, line 2: ReferenceError: __ezCmpConfig is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1625594753031	Marionette	INFO	Stopped listening on port 63979
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
