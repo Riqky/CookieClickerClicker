@@ -15,24 +15,31 @@ driver.get("https://orteil.dashnet.org/cookieclicker/")
 cookie = driver.find_element(By.CSS_SELECTOR, '#bigCookie')
 WebDriverWait(driver, 20).until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, '#bigCookie')))
 
-cookie_position = cookie.location
+# cookie_position = cookie.location
 
-_thread.start_new_thread(click, (0.1, (800, 1000)))
+location = driver.get_window_position()
+cookiePos = (cookie.location["x"] + location["x"],
+             cookie.location["y"] + location["y"])
 
-while True:
-    # get the cookie and click it
-    # this time on a different thread!
-    _thread.start_new_thread(click, (0, (cookie_position["x"], cookie_position["y"])))
+print(cookiePos)
 
-    #find the upgrades
-    upgrades = driver.find_elements_by_css_selector("div.product.enabled")
+# get the cookie and click it
+# this time on a different thread!
+_thread.start_new_thread(click, (0, cookiePos))
 
-    for item in upgrades:
-        item.click()
+try:
+    while True:
 
-    upgrades = driver.find_elements_by_css_selector("div.upgrade.enabled")
+        # find the upgrades
+        upgrades = driver.find_elements_by_css_selector("div.product.enabled")
 
-    for item in upgrades:
-        item.click()
+        for item in upgrades:
+            item.click()
 
+        upgrades = driver.find_elements_by_css_selector("div.upgrade.enabled")
 
+        for item in upgrades:
+            item.click()
+except KeyboardInterrupt:
+    driver.close()
+    driver.quit()
